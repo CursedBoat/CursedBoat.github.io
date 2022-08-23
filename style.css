@@ -59,7 +59,7 @@
 .main{
     display: flex;
     flex-direction: column;
-    border: 5px solid white;
+    /* border: 5px solid white; */
     align-items: center;
     position: absolute;
 }
@@ -91,13 +91,15 @@
     flex-direction: column;
     background-image: linear-gradient(90deg, rgba(139,17,119,1) 0%, rgba(140,26,87,1) 41%, rgba(87,6,170,1) 66%, rgba(129,102,255,1) 100%);
     height: 2%;
-    justify-content: center;
-    align-items: left;
+    justify-content: normal;
     color: white;
+}
+.footings ha, .footings a{
+    display: inline !important;
 }
 .footings{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1rem;
-    text-align: left;
+    text-align: center;
     margin: 4px 4px;
 }

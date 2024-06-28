@@ -1,0 +1,75 @@
+.header {
+	font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.content-container-music {
+    position: absolute;
+	display: flex;
+	flex-direction: column;
+    top: 7rem;
+    width: 80%;
+    margin: 0 10%;
+    z-index: -1;
+}
+
+.tracks-grid {
+	display: flex;
+  	grid-template-columns: repeat(3, 1fr);
+  	column-gap: 4rem;
+  	row-gap: 2em;
+	padding: 2rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.track {
+	display: flex;
+	flex-direction: column;
+	width: 200%;
+  	grid-template-columns: repeat(3, 1fr);
+	background-color: rgb(36, 36, 36);
+	padding: 1rem;
+	align-items: start;
+	border-radius: 1rem;
+}
+
+.track:hover {
+	background-color: rgb(80, 29, 53);
+}
+
+.warning {
+	display: flex;
+	align-self: center;
+	font-size: 15px;
+}
+
+.title {
+	font-size: 25px;
+	font-weight: bolder;
+	transition: 1s;
+}
+
+.genre {
+	font-size: 13px;
+}
+
+.divider {
+	height: 1rem;
+}
+
+.download-btn:hover {
+	color: rgb(255, 57, 100);
+}
+
+@media (max-width: 700px) {
+	.tracks-grid {
+		flex-direction: column;
+	}
+
+	.track {
+		width: 100%;
+	}
+	
+}

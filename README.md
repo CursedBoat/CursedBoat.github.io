@@ -4,4 +4,4 @@ My personal portfolio site.
 
 ---
 
-**Website:** [snthe.dev](https://www.snthe.dev)
+**Website:** [snthe.dev](https://www.snthe.net)

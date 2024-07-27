@@ -27,9 +27,22 @@
     font-size: 4rem;
     font-weight: 600;
 }
-.header h2 {
+.pronounced {
     font-size: 0.9rem;
     font-weight: 100;
+}
+
+.divider {
+	height: 1rem;
+}
+
+.music-adv {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.music-adv a:hover {
+    color: rgb(255, 57, 100);
 }
 
 /* hero image */
